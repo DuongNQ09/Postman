@@ -25,32 +25,32 @@ I. Giới thiệu Postman
 II. Kiểm thử API cơ bản:
 - Gửi các yêu cầu HTTP (GET, POST, PUT, DELETE) đến API.
   + GET
-   ![CHESSSE!](image1.png)
+   ![CHESSSE!](img/image1.png)
   + Nhập URLcủa API muốn kiểm thử 
-   ![CHESSSE!](image2.png)
+   ![CHESSSE!](img/image2.png)
   + POST
-   ![CHESSSE!](image4.png)
-   ![CHESSSE!](image4_2.png)
+   ![CHESSSE!](img/image4.png)
+   ![CHESSSE!](img/image4_2.png)
   + PUT
-   ![CHESSSE!](image5.png)
-   ![CHESSSE!](image5_2.png)
+   ![CHESSSE!](img/image5.png)
+   ![CHESSSE!](img/image5_2.png)
   + DELETE
-   ![CHESSSE!](image6.png)
-   ![CHESSSE!](image6_2.png)
+   ![CHESSSE!](img/image6.png)
+   ![CHESSSE!](img/image6_2.png)
 - Kiểm tra mã trạng thái HTTP và nội dung phản hồi.
-   ![CHESSSE!](image3.png)
+   ![CHESSSE!](img/image3.png)
 - Sử dụng các biến và bộ sưu tập dữ liệu trong Postman.
-   ![CHESSSE!](image7.png)
-   ![CHESSSE!](image8.png)
+   ![CHESSSE!](img/image7.png)
+   ![CHESSSE!](img/image8.png)
 - Xác minh tính hợp lệ của JSON.
-   ![CHESSSE!](image9.png)
+   ![CHESSSE!](img/image9.png)
 
 III. Kiểm thử API nâng cao:
 - Kiểm tra xác thực và ủy quyền.
-   ![CHESSSE!](image10.png)
-   ![CHESSSE!](image11.png)
+   ![CHESSSE!](img/image10.png)
+   ![CHESSSE!](img/image11.png)
 - Kiểm tra hiệu suất API.
-   ![CHESSSE!](image12.png)
+   ![CHESSSE!](img/image12.png)
   API: https://random-data-api.com/api/v2/beers
   Tạo một sản phẩm mới Trường hợp kiểm thử thành công: Tên: Tạo sản phẩm mới thành công Đầu vào: { "brand": "Delirium", "name": "Founders Kentucky Breakfast", "style": "India Pale Ale", "hop": "Galena", "yeast": "3638 - Bavarian Wheat", "malts": "Victory", "ibu": "16 IBU", "alcohol": "7.1%", "blg": "7.1°Blg" } Kỳ vọng: Trả về mã trạng thái 400 và thông báo lỗi chi tiết.
 - Kiểm thử bảo mật API.
